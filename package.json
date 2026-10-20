@@ -1,0 +1,27 @@
+{
+  "name": "backend_project_mapil_crud",
+  "version": "1.0.0",
+  "description": "Backend REST API Express.js untuk Toko Baju Cloth Store",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test-api.js"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "crud",
+    "api",
+    "mapil"
+  ],
+  "author": "Rakha",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}
